@@ -1,29 +1,14 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
-
 # Xylophone 🎹
 
-## Our Goal
+## My Goal
+In this app, I have used and performed various Dart programming concepts and utilized open-source Flutter packages. I have created a simple xylophone app that plays sounds for each button touch.
 
-In this tutorial we will be diving into more Dart programming concepts such as lists, loops, functions and much much more. By the end of this modules, you should be conformable using Flutter packages and building repeated widgets.
+## What I Have Created
+I designed a simple UI app that resembles a small xylophone. The app plays different sounds based on the touch inputs on the screen.
 
+## Package Used
+- [audioplayers](https://pub.dev/packages/audioplayers)
 
-## What you will create
-
-We’re going to make a music app that plays Xylophone sounds. For every Beethoven out there, this will let you unleash your musical talent where ever you are. 
-
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/xylophone-flutter.png)
-
-## What you will learn
-
-- How to incorporate open source libraries of code into your project using Flutter Packages.
-- How to play sound on both iOS and Android.
-- How to generate repeated user interface Widgets.
-- How to use Dart functions that can take input arguments as well as return an output.
-- What is the difference between var, const and final in Dart.
-- How to use Dart lists.
-- How to loop through code using a Dart for loop.
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+## Course
+This Flutter application was built to create different sounds when touching different tabs in the app. In this app, I used the 'audioplayers' package from the Dart package container. This app was created during the course "The Complete 2020 Flutter Bootcamp with Dart," in collaboration with the Google Flutter team and The London App Brewery, instructed by Dr. Angela Yu.
+built to create different sounds for touching different tabs in the app.In this app, I used a 'audio players' package from dart package container.This app is created during the course "The Complete 2020 Flutter Bootcamp with Dart" created by collobaration with Google Flutter team and The London App Brewery, instructed by Dr.Angela Yu.
