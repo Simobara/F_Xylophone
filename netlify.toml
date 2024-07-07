@@ -1,0 +1,17 @@
+[build]
+  publish = "build/web"
+  command = "flutter build web"
+
+[context.production.environment]
+  NODE_VERSION = "14"
+
+[build.environment]
+  FLUTTER_VERSION = "2.2.3"
+
+[build.lifecycle.onBuild]
+  commands = [
+    "git clone https://github.com/flutter/flutter.git -b stable --depth 1",
+    "export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH",
+    "flutter doctor",
+    "flutter build web"
+  ]
