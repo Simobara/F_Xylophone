@@ -15,7 +15,7 @@
 
 
 ## Demo
-![Finished App](sample_bmi_calc.gif)
+![Finished App](xylophone.png)
 
 ---
 ## Getting Started
